@@ -56,7 +56,7 @@ public class Palabra implements Comparable<Palabra> { // Crear la clase Palabra 
         this.frecuencia++; // Sumar uno a la frecuencia actual
     } // Finalizar aumentarFrecuencia
 
-    @Override // Indicar que se sobrescribe el método compareTo
+    @Override // Indicar que se sobrescribe el metodo compareTo
     public int compareTo(Palabra otraPalabra) { // Comparar dos palabras alfabéticamente
         return this.palabra.compareTo(otraPalabra.getPalabra()); // Retornar comparación usando el texto de la palabra
     } // Finalizar compareTo
